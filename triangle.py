@@ -9,6 +9,8 @@ def area(a, h):
         Возвращаемое значение:
             (float): значение площади треугольника
     '''
+    if a <= 0 or h <= 0:
+        raise ValueError("Base and height must be positive numbers")
     return a * h / 2
     
 def perimeter(a, b, c):
@@ -23,5 +25,7 @@ def perimeter(a, b, c):
         Возвращаемое значение:
             (float): значение периметра треугольника
     '''
+    if a <= 0 or b <= 0 or c <= 0:
+        raise ValueError("All sides must be positive numbers")
     return a + b + c
 
