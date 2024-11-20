@@ -154,28 +154,3 @@ from geometric_lib import triangle
 
 triangle.perimeter(2, 3, 4) -> 9
 ```
-
-# История изменения проекта с хешами комитов
-commit d13f68e37800a6eddcde8abca39f0b8686c0afdc (HEAD -> new_features_466286)
-
-Author: pcj-leha <99689620+pcj-leha@users.noreply.github.com>
-
-Date:   Tue Oct 8 10:44:20 2024 +0300
-
-    a bug in the file has been fixed rectangle.py
-
-commit 924cc1dc9f46ef68db3e6a47a2c69e6bd61cd140
-
-Author: pcj-leha <99689620+pcj-leha@users.noreply.github.com>
-
-Date:   Tue Oct 8 10:42:56 2024 +0300
-
-    a new file has been added triangle.py
-
-commit 7ae6411dd69557aafa4eeffc711dcfe0abea59c0
-
-Author: pcj-leha <99689620+pcj-leha@users.noreply.github.com>
-
-Date:   Tue Oct 8 10:39:08 2024 +0300
-
-    a new file has been added rectangle.py
